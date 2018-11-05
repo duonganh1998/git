@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sıÒ duòng toaìn tıÒ</title>
+</head>
+<body>
+<script>
+    var width=parseInt(prompt("nhâòp chiêÌu daÌi"));
+    var height=parseInt(prompt("nhâòp chiêÌu rôòng"));
+    var dt=width*height;
+    document.write("diêòn tiìch laÌ" + dt);
+
+</script>
+</body>
+</html>
