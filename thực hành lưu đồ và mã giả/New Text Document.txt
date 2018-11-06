@@ -1,9 +1,0 @@
-MaŞ giaÒ:
-Begin
-Nhâòp ğiêÒm toaìn
-Nhâòp ğiêÒm hoìa
-Nhâòp ğiêÒm lyì
-Dtb=(ğiêÒm toaìn + ğiêÒm lyì + ğiêÒm hoìa)/3
-Display dtb
-End
-Lıu ğôÌ

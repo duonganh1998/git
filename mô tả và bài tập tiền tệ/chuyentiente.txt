@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>chuyêÒn tiêÌn têò</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="so"></td>
+            <td>
+                <select>
+                    <option>Viêòt Nam</option>
+                    <option>Trung quôìc</option>
+                    <option>HaÌn quôìc</option>
+                    <option>Thaìi Lan</option>
+                    <option>USA</option>
+                </select>
+            </td>
+            <td>
+                <select>
+                    <option>USD</option>
+                    <option>EURO</option>
+                    <option>VNÐ</option>
+                </select>
+            </td>
+            <td>  <button type="button" onclick="ham()">chuyêÒn ðôÒi tiêÌn</button></td>
+        </tr>
+    </table>
+</form>
+<p id="demo"></p>
+<script>
+    function ham(){
+        var hs=prompt("nhâòp hêò sô chuyêÒn tiêÌn");
+        var x=document.getElementById("so").value;
+        alert(x*hs);
+    }
+</script>
+</body>
+</html>
