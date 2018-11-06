@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<html>
+<body>
+<form>
+    <table>
+        <tr>
+            <td><input type="text" id="thang"></td>
+            <td><button type="button" onclick="ham()">tiình sôì ngaÌy</button> </td>
+        </tr>
+    </table>
+</form>
+<script>
+    function ham() {
+        var x = document.getElementById("thang").value;
+        switch (x) {
+            case '1':
+            case '3':
+            case '5':
+            case '7':
+            case '8':
+            case '10':
+            case '12':
+                alert('thaìng coì 31 ngaÌy');
+                break;
+            case '2':
+                alert('thaìng coì 28 hoãòc 29 ngaÌy');
+                break;
+            case '4':
+            case '6':
+            case '9':
+            case '11':
+                alert('thaìng coì 30 ngaÌy');
+        }
+    }
+</script>
+</body>
+</html>
