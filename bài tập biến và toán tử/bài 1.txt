@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sıÒ duòng toaìn tıÒ</title>
+</head>
+<body>
+<script>
+    var lyì=parseInt(prompt("nhâòp ğiêÒm lyì"));
+    var hoìa=parseInt(prompt("nhâòp ğiêÒm hoìa"));
+    var sinh=parseInt(prompt("nhâòp ğiêÒm sinh"));
+    var tbc=(lyì + hoìa + sinh)/3;
+    var tong=(lyì + hoìa + sinh);
+    document.write("ğiêÒm trung biÌnh laÌ" + tbc);<br>
+    document.write("tôÒng ğiêÒm laÌ" + tong);
+</script>
+</body>
+</html>

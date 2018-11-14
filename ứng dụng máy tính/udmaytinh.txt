@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ýìng duòng maìy tiình</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th colspan="4">Caculator</th>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" id="so"></td>
+            <td colspan="2"><input type="text" id="so1"></td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="cong()">Addtion(+)</button>
+            </td>
+            <td>
+                <button type="button" onclick="tru()">Subtraction(-)</button>
+            </td>
+            <td>
+                <button type="button" onclick="nhan()">Multiplication(X)</button>
+            </td>
+            <td>
+                <button type="button" onclick="chia()">Division(/)</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+    function cong() {
+        var number1= parseInt(document.getElementById("so").value);
+        var number2=parseInt(document.getElementById("so1").value);
+
+        alert(number1+number2);
+    }
+    function tru() {
+        var number1=document.getElementById("so").value;
+        var number2=document.getElementById("so1").value;
+        alert(number1-number2);
+    }
+    function nhan() {
+        var number1=document.getElementById("so").value;
+        var number2=document.getElementById("so1").value;
+        alert(number1*number2);
+    }
+    function chia() {
+        var number1=document.getElementById("so").value;
+        var number2=document.getElementById("so1").value;
+        alert(number1/number2);
+    }
+</script>
+
+</body>
+</html>

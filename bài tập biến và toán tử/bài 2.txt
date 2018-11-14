@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+        var c = prompt("nhâòp vaÌo ğôò c", "");
+        var f=(9*c)/5+32;
+        alert("sôì ğôò f chuêÒn tıÌ ğôòc c laÌ:" + f);
+</script>
+
+</body>
+</html>
