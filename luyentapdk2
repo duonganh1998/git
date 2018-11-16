@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>đảo mảng</title>
+</head>
+<body>
+<script>
+    var canh =prompt("nhập số canh: ");
+    if(canh>0){
+        var dt=canh*canh;
+        alert("diện tích hình vuông là" + dt);
+    }
+    else{
+        alert("cạnh không hợp lệ hông thể tinhs được diện tích");
+    }
+</script>
+</body>
+</html>
